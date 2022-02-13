@@ -41,7 +41,7 @@
     <Folder Include="wwwroot\" />
   </ItemGroup>
   
-  <!--
+  
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">    
     <Exec Command="node --version" ContinueOnError="true">
       <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
@@ -66,6 +66,6 @@
       </ResolvedFileToPublish>
     </ItemGroup>
   </Target>
-  -->
+  
 
 </Project>
